@@ -1,6 +1,6 @@
 Add a simple pixelated loading effect to any image
 
-![Demo](demo.gif)
+[![Demo](demo.gif)](https://timothy-gonzalez.github.io/pixelated-loading-effect)
 
 *Note, GIF compression is awful. I recommend using the demo below*
 
