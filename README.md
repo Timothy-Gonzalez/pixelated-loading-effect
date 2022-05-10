@@ -1,10 +1,10 @@
 Add a simple pixelated loading effect to any image
 
-[![Demo](demo.gif)](https://timothy-gonzalez.github.io/pixelated-loading-effect)
+[![Demo](demo.gif)](https://timothy-gonzalez.com/pixelated-loading-effect/)
 
 *Note, GIF compression is awful. I recommend using the demo below*
 
-View the live demo at [here](https://timothy-gonzalez.github.io/pixelated-loading-effect).
+View the live demo at [here](https://timothy-gonzalez.com/pixelated-loading-effect/).
 
 # Usage
 Simply add the `pixelatedLoadingEffect` class to any image, and the magic will be done.

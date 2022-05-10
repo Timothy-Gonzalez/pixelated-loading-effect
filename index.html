@@ -13,19 +13,32 @@
 
 <body>
 	<style>
-		#myImage {
+		/* This centers the container */
+		#container {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			width: 75%;
-			margin: 0 auto;
-			border: 1px solid black;
 			transform: translate(-50%, -50%);
+		}
+
+		#reloadButton {
+			display: block;
+			margin: 0 auto;
+		}
+
+		/* This is the only CSS that is required, if you want to change the values. Otherwise, defaults apply. */
+		#myImage {
 			--time: 1s;
 			--delay: 1s;
+			width: 100%;
 		}
 	</style>
-	<img id="myImage" class="pixelatedLoadingEffect" src="res/images/image.jpg"></img>
+	<!-- Note that the container is only to center both the button and image, it is NOT required -->
+	<div id="container">
+		<img id="myImage" class="pixelatedLoadingEffect" src="res/images/image.jpg"></img>
+		<button id="reloadButton" onclick="window.location.reload()">Reload</button>
+	</div>
 </body>
 
 </html>
