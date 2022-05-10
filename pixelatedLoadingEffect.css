@@ -1,0 +1,26 @@
+/*
+
+This is primarily to support cases where JS is disabled.
+
+Also sets the default values for:
+- Time length, which can be changed using the custom `--time` CSS property
+- Time delay, which can be changed using the custom `--delay` CSS property
+
+*/
+
+.pixelatedLoadingEffect {
+	--time: 1s;
+	--delay: 0s;
+	opacity: 0;
+	animation: pixelatedLoadingEffect var(--time) var(--delay) forwards;
+}
+
+@keyframes pixelatedLoadingEffect {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
